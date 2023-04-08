@@ -1,0 +1,102 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    
+
+
+}
+
+body {
+    background-image: url(./Image/india.jfif);
+    background-size: cover;
+    font-size:12px;
+
+}
+
+.cover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+.container {
+    
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    
+
+}
+.logo{
+    color:rgb(255, 255, 255);
+    padding-bottom:165px ;
+    font-size: 17px;
+}
+
+.containerBody {
+    border-radius: 5px;
+    padding-left:400px ;
+    
+    
+    
+}
+.wrapper{
+    width:360px;
+    height:520px;
+    background:transparent;
+    position: relative;
+    border-radius: 3px;
+    backdrop-filter: blur(5px);
+    background-color: #ffffff2a;
+    padding:15px 30px;
+}
+table{
+    color: white;
+}
+
+td input, select, textarea{
+    position: relative;
+    margin:13.5px;
+    height: 100%;
+    padding-bottom: 3px;
+
+    
+}
+ textarea:focus{
+    border-bottom: 1.5px solid rgba(255, 123, 0, 0.986);
+}
+select:focus{
+    border-bottom: 1.5px solid rgba(255, 123, 0, 0.986);
+
+}
+td input:focus{
+    border-bottom: 1.5px solid rgba(255, 123, 0, 0.986);
+
+}
+
+.text{
+    font-size: 14px;
+    color: #ffffff;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.356);
+
+}
+button{
+    padding: 3px 1px;
+    width :70px;
+    background-color: rgba(255, 116, 2, 0.568);
+    border: 1px solid rgb(255, 145, 0);
+    border-radius:3px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    margin: 8px;
+    jus
+    
+}
+button:hover{
+    background-color: rgba(202, 98, 13, 0.568);
+}
